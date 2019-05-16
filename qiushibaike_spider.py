@@ -1,7 +1,6 @@
 import requests
 from lxml import etree
-from Queue import Queue
-import time
+from queue import Queue
 import threading
 import json
 
@@ -31,7 +30,7 @@ class thread_crawl(threading.Thread):
                 print("qiushi_spider=",self.threadID,'page=',str(page))
             url = 'http://www.qiushibaike.com/8hr/page/' + '/'
             headers = {
-                'User-Agent':'',
+                'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
                 'Accept-Language':'zh-CN,zh;q=0.8'
             }
             timeout = 4
@@ -60,11 +59,11 @@ class Thread_Parser(threading.Thread):
 
     def run(self):
         print("starting",self.threadID)
-        global total, exitFlag_Parsr
-        while not exitFlag_Parsr:
+        global total, exitFlag_Parser
+        while not exitFlag_Parser:
             try:
                 """
-                调用队列对象的get()方法从对头删除并返回一个项目，可选参数为block，默认为Trye
+                调用队列对象的get()方法从对头删除并返回一个项目，可选参数为block，默认为True
                 如果队列为空且block为true，get()就调用线程暂停，直到有项目可做
                 如果队列为空且block为False,队列将引发Empty异常
                 """
@@ -122,7 +121,7 @@ class Thread_Parser(threading.Thread):
 
 data_queue = Queue()
 exitFlag_Parser = False
-lock = threading.lock()
+lock = threading.Lock()
 total = 0
 
 def main():
