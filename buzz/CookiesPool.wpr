@@ -1,0 +1,15 @@
+#!wing
+#!version=6.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+proj.file-list = [loc('CookiesPool/api.py'),
+                  loc('CookiesPool/config.py'),
+                  loc('CookiesPool/db.py'),
+                  loc('CookiesPool/generator.py'),
+                  loc('CookiesPool/importer.py'),
+                  loc('CookiesPool/scheduler.py'),
+                  loc('CookiesPool/tester.py'),
+                  loc('CookiesPool/__init__.py')]
+proj.file-type = 'shared'
