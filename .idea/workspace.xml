@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0599017-da28-4877-97e1-37ac674dbd79" name="Default Changelist" comment="" />
+    <list default="true" id="c0599017-da28-4877-97e1-37ac674dbd79" name="Default Changelist" comment="糗事百科多线程爬取">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,14 +17,18 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qiushibaike_spider.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-713">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhihu_demo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-3783">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -71,10 +77,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="326" />
-    <option name="y" value="28" />
-    <option name="width" value="937" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="436" />
+    <option name="y" value="38" />
+    <option name="width" value="702" />
     <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -350,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557987204800</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="糗事百科多线程爬取">
+      <created>1558000730400</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558000730400</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -363,10 +376,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="326" y="28" width="937" height="688" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49820143" visible="true" weight="0.15239155" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49820143" visible="true" weight="0.04761905" />
       <window_info id="Structure" order="1" sideWeight="0.50179857" side_tool="true" weight="0.17201835" />
       <window_info id="Favorites" order="2" sideWeight="0.50179857" side_tool="true" weight="0.17201835" />
       <window_info id="DB Browser" order="3" weight="0.328125" />
@@ -377,7 +389,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32792792" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49925596" visible="true" weight="0.36216217" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49925596" weight="0.36216217" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32792792" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32792792" />
@@ -430,6 +442,16 @@
           <url>file://$PROJECT_DIR$/bubble_sort.py</url>
           <line>8</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qiushibaike_spider.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qiushibaike_spider.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -645,7 +667,7 @@
     <entry file="file://$PROJECT_DIR$/zhihu_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3783">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
@@ -653,7 +675,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qiushibaike_spider.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
