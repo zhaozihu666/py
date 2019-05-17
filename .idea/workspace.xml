@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0599017-da28-4877-97e1-37ac674dbd79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HuiCongWang_spider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiushibaike_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/qiushibaike_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HuiCongWang_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/HuiCongWang_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buzz/jobbole_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/buzz/jobbole_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buzz/result.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +17,33 @@
     <favorites_list name="py" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="277">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qiushibaike_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="25">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HuiCongWang_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buzz/zhihu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-538">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -30,12 +52,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HuiCongWang_spider.py">
+        <entry file="file://$PROJECT_DIR$/buzz/jobbole_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="250">
+              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
-                <element signature="e#191#206#0" expanded="true" />
+                <element signature="e#12#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +102,7 @@
         <option value="$PROJECT_DIR$/zhihu_demo.py" />
         <option value="$PROJECT_DIR$/qiushibaike_spider.py" />
         <option value="$PROJECT_DIR$/HuiCongWang_spider.py" />
+        <option value="$PROJECT_DIR$/buzz/jobbole_spider.py" />
       </list>
     </option>
   </component>
@@ -95,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,7 +130,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HuiCongWang_spider">
+  <component name="RunManager" selected="Python.jobbole_spider">
     <configuration name="HuiCongWang_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dynamic_B_S" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="jobbole_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,11 +188,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/B_S" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/buzz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B_S/dynamic_B_S.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/buzz/jobbole_spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,27 +243,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tcp_serve" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/B_S" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B_S/tcp_serve.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tcp_serve_mulp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,6 +256,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B_S/tcp_serve_mulp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zhihu (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/buzz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/buzz/zhihu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,19 +331,19 @@
       <item itemvalue="Python.sort" />
       <item itemvalue="Python.zhihu" />
       <item itemvalue="Python.zzh" />
-      <item itemvalue="Python.dynamic_B_S" />
-      <item itemvalue="Python.tcp_serve" />
       <item itemvalue="Python.tcp_serve_mulp" />
       <item itemvalue="Python.qiushibaike_spider" />
       <item itemvalue="Python.HuiCongWang_spider" />
+      <item itemvalue="Python.zhihu (1)" />
+      <item itemvalue="Python.jobbole_spider" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jobbole_spider" />
         <item itemvalue="Python.HuiCongWang_spider" />
+        <item itemvalue="Python.zhihu (1)" />
         <item itemvalue="Python.qiushibaike_spider" />
         <item itemvalue="Python.tcp_serve_mulp" />
-        <item itemvalue="Python.tcp_serve" />
-        <item itemvalue="Python.dynamic_B_S" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558000861703</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="精准推广项目">
+      <created>1558022194905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558022194905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -462,7 +492,8 @@
     <MESSAGE value="KNN_婚恋网站识别对象类型" />
     <MESSAGE value="糗事百科多线程爬取内容" />
     <MESSAGE value="糗事百科多线程爬取" />
-    <option name="LAST_COMMIT_MESSAGE" value="糗事百科多线程爬取" />
+    <MESSAGE value="精准推广项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="精准推广项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,6 +502,11 @@
           <url>file://$PROJECT_DIR$/bubble_sort.py</url>
           <line>8</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/buzz/jobbole_spider.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -686,8 +722,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qiushibaike_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="25">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_taobao/taobao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="60" column="52" lean-forward="true" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buzz/zhihu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -696,10 +749,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HuiCongWang_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="237">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buzz/jobbole_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
-            <element signature="e#191#206#0" expanded="true" />
+            <element signature="e#12#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
